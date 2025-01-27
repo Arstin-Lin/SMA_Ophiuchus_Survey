@@ -3,8 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import subprocess
 
-#targets = ['AS_206', 'DoAr_16', 'DoAr_24E', 'DoAr_25', 'DoAr_33', 'DoAr_44', 'GSS_26', 'GSS_39', 'HBC_266', 'IRS_37', 'IRS_39', 'IRS_41', 'IRS_51', 'VSSG_1', 'WSB_31', 'WSB_60', 'YLW_47', 'YLW_8']
-targets =['YLW_47']
+targets = ['AS_206', 'DoAr_16', 'DoAr_24E', 'DoAr_25', 'DoAr_33', 'DoAr_44', 'GSS_26', 'GSS_39', 'HBC_266', 'IRS_37', 'IRS_39', 'IRS_41', 'IRS_51', 'VSSG_1', 'WSB_31', 'WSB_60', 'YLW_47', 'YLW_8']
 tracks = ['track1', 'track2a']
 rxs = ['rx240']
 sidebands = ['usb', 'lsb']
